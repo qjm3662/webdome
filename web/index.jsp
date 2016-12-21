@@ -14,8 +14,7 @@
     <title>Welcome</title>
   </head>
   <body>
-  <button onclick="">
-    <a href="/HelloWorld">HelloWord</a><br/>
-    <a href="/login.jsp">login</a>
+    <a href="<%=request.getContextPath()%>/HelloWorld">HelloWord</a><br/>
+    <a href="<%=request.getContextPath()%>/login.jsp">login</a>
   </body>
 </html>

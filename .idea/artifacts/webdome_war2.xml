@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="webdome:war2">
+    <output-path>$PROJECT_DIR$/out/artifacts/webdome_war2</output-path>
+    <root id="archive" name="webdome_war.war">
+      <element id="artifact" artifact-name="webdome:war exploded" />
+    </root>
+  </artifact>
+</component>
